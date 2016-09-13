@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add new user</title>
+</head>
+<body>
+
+<fieldset>
+  <form name="newuser" id="newuser" action="adduser.jsp" method="POST">
+
+    <h3>User Details</h3>
+	<ul>
+	
+	<li><label class="fieldLabel">User Name:
+      <input type="text" name="username" size="10" maxlength="10" placeholder="username" />
+    </label>
+
+    <li><label class="fieldLabel">Password:
+      <input type="password" name="password" size="32" maxlength="32">
+    </label>
+
+<!--	Second password, if wanted
+     <li><label class="fieldLabel">Re-enter Password:
+      <input type="password" name="password2" size="32" maxlength="32">
+    </label> -->
+    
+    <li><label class="fieldLabel">Email:
+      <input type="text" name="email" size="40" maxlength="80" placeholder="someone@somewhere.com" />
+    </label>
+
+	<li><label class="fieldLabel">Full Name:
+      <input type="text" name="fullname" size="40" maxlength="80" placeholder="First Last" />
+    </label>
+    
+    </ul>
+    
+    <input type="submit" name="submit" onclick="" value="Create User" />
+    
+  </form>
+</fieldset>
+<div style="text-align:center">
+<a href="newuser.html">Add New User</a> |
+<a href="listusers.jsp">Show All Users</a> |
+<a href="updateUser.html">Update User</a> |
+<a href="deleteUser.html">Delete User</a> |
+<!-- <a href="clearall.jsp">Clear Session</a> -->
+</div>
+</body>
+</html>

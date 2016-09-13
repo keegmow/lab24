@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User Deletion</title>
+</head>
+<body>
+<fieldset>
+  <form name="deleteuser" id="deleteuser" action="deleteUser.jsp" method="GET">
+
+    <h3>User Deletion</h3>
+	<label class="fieldLabel">User Id:
+      <input type="number" name="id" size="3" maxlength="3" placeholder="000" />
+    </label>
+    <input type="submit" name="submit" onclick="" value="Delete User" />
+  </form>
+</fieldset>
+<div style="text-align:center">
+<a href="newuser.html">Add New User</a> |
+<a href="listusers.jsp">Show All Users</a> |
+<a href="updateUser.html">Update User</a> |
+<a href="deleteUser.html">Delete User</a> |
+<!-- <a href="clearall.jsp">Clear Session</a> -->
+</div>
+</body>
+</html>
